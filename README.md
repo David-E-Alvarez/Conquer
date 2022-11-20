@@ -1,2 +1,2 @@
 # Conquer
-[live site:](https://david-e-alvarez.github.io/Conquer/)
+[live site](https://david-e-alvarez.github.io/Conquer/)
