@@ -8,7 +8,9 @@ body{
 }
 
 #nav-container{
-    border-style: dotted;
+    border-style: solid;
+    border-color: red;
+    border-width: medium;
     background-color: #383e4c;
 }
 
@@ -29,3 +31,15 @@ body{
     text-decoration: none;
 }
 
+
+#jumbotron{
+    border-style: solid;
+    border-color: purple;
+    border-width: medium;
+    background-color: yellow;
+}
+
+#jumbotron h1{
+    color: red;
+    
+}
