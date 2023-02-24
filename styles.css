@@ -4,6 +4,8 @@ html{
 }
 
 body{
+    height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -36,11 +38,19 @@ body{
     border-style: solid;
     border-color: purple;
     border-width: medium;
-    background-color: yellow;
+    /*https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport*/
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url('img/bg-1.jpg');
 }
 
-#jumbotron h1, p{
-    color: red;
-    text-align: center; 
+/* used this resource to center text in div element horizontally and vertically within section element */
+/* https://stackoverflow.com/questions/11978231/vertically-center-two-elements-within-a-div/31977476#31977476 */
+
+#jumbotron-text{
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: center;
 }
