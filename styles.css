@@ -39,7 +39,7 @@ body{
     border-color: purple;
     border-width: medium;
     /*https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport*/
-    height: 50vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,4 +53,20 @@ body{
     color: white;
     text-shadow: 2px 2px #000;
     text-align: center;
+}
+
+#div-cards{
+    border-style: solid;
+    border-color: orange;
+    border-width: medium;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    background: #F2F2F2;
+    border-style: solid;
+    border-color: red;
+    border-width: medium;  
 }
