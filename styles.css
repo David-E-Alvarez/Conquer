@@ -10,23 +10,23 @@ body{
 }
 
 #nav-container{
-    border-style: solid;
+    /* border-style: solid;
     border-color: red;
-    border-width: medium;
+    border-width: medium; */
     background-color: #383e4c;
 }
 
 #nav{
     display: flex;
     justify-content: center;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    /* margin-top: .5em;
+    margin-bottom: .5em; */
 }
 
-.button{
+.button{ /*nav "buttons" */
     color: white;
     background-color: transparent;
-    border: 1px solid white; 
+    /* border: 1px solid white;  */
     margin-left: .5em;
     margin-right: .5em;
     padding: 1em 1em 1em 1em;
@@ -35,14 +35,14 @@ body{
 
 
 #jumbotron{
-    border-style: solid;
+    /* border-style: solid;
     border-color: purple;
-    border-width: medium;
+    border-width: medium; */
     /*https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport*/
-    height: 65vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     background-image: url('img/bg-1.jpg');
 }
 
@@ -50,23 +50,42 @@ body{
 /* https://stackoverflow.com/questions/11978231/vertically-center-two-elements-within-a-div/31977476#31977476 */
 
 #jumbotron-text{
+    font-size: 2rem;
     color: white;
     text-shadow: 2px 2px #000;
     text-align: center;
 }
 
 #div-cards{
-    border-style: solid;
-    border-color: orange;
-    border-width: medium;  
+    /* border-style: solid;
+    border-color: orange; */
+    /* border-width: medium;   */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .card{
-    background: #F2F2F2;
-    border-style: solid;
+    /* background: #F2F2F2; */
+    background: gray;
+    /* border-style: solid;
     border-color: red;
-    border-width: medium;  
+    border-width: medium;   */
+    margin: 4rem 1rem 4rem 1rem;
+    width: 15vw;
 }
+
+.card img{
+    width: 100%;
+}
+
+
+
+.txt-div{
+    /* border-style: solid;
+    border-color: red;
+    border-width: medium;  */
+    margin: 0 1rem 0 1rem;
+}
+
+
