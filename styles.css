@@ -41,7 +41,7 @@ body{
     height: 45vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     background-image: url('img/bg-1.jpg');
     background-size: cover;
 }
@@ -60,6 +60,15 @@ body{
     border-style: solid;
     border-color: orange; 
     border-width: medium;  
+    display: flex;
+    flex-direction: row;
+}
+
+/*second section with two bigger cards than three smaller ones above it*/
+#two-divs-column-section{
+    border-style: solid;
+    border-color: yellow; 
+    border-width: medium;
     display: flex;
     flex-direction: row;
 }
