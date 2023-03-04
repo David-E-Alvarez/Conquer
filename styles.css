@@ -41,7 +41,7 @@ body{
     height: 45vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     background-image: url('img/bg-1.jpg');
     background-size: cover;
 }
