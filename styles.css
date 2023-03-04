@@ -10,23 +10,22 @@ body{
 }
 
 #nav-container{
-    /* border-style: solid;
+    border-style: solid;
     border-color: red;
-    border-width: medium; */
+    border-width: medium;
     background-color: #383e4c;
 }
 
 #nav{
     display: flex;
     justify-content: center;
-    /* margin-top: .5em;
-    margin-bottom: .5em; */
+    padding: .5rem 1rem .5rem 1rem;
 }
 
 .button{ /*nav "buttons" */
     color: white;
     background-color: transparent;
-    /* border: 1px solid white;  */
+    border: 1px solid white;
     margin-left: .5em;
     margin-right: .5em;
     padding: 1em 1em 1em 1em;
@@ -35,15 +34,16 @@ body{
 
 
 #jumbotron{
-    /* border-style: solid;
+    border-style: solid;
     border-color: purple;
-    border-width: medium; */
+    border-width: medium;
     /*https://stackoverflow.com/questions/22247178/html-sections-100-height-of-viewport*/
-    height: 60vh;
+    height: 45vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-image: url('img/bg-1.jpg');
+    background-size: cover;
 }
 
 /* used this resource to center text in div element horizontally and vertically within section element */
@@ -57,35 +57,39 @@ body{
 }
 
 #div-cards{
-    /* border-style: solid;
-    border-color: orange; */
-    /* border-width: medium;   */
+    border-style: solid;
+    border-color: orange; 
+    border-width: medium;  
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .card{
     /* background: #F2F2F2; */
     background: gray;
-    /* border-style: solid;
-    border-color: red;
-    border-width: medium;   */
-    margin: 4rem 1rem 4rem 1rem;
-    width: 15vw;
+    border-style: solid;
+    border-color: pink;
+    border-width: medium;  
+    margin: 6rem 3rem 6rem 3rem;
+    /* width: 15vw; */
 }
 
 .card img{
     width: 100%;
 }
 
-
+.card button{
+    padding: .6rem;
+    color: white;
+    border-style: none;
+}
 
 .txt-div{
-    /* border-style: solid;
+    border-style: solid;
     border-color: red;
-    border-width: medium;  */
-    margin: 0 1rem 0 1rem;
+    border-width: medium; 
+    /* margin: 0 1rem 0 1rem; */
 }
+
 
 
